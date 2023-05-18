@@ -146,3 +146,22 @@ int main() {
                     system("pause");
                     system("cls");
                     break;
+
+                case 2:
+                    if (listEmpty()) {
+                        cout << "List Kosong" << endl;
+                        system("pause");
+                        system("cls");
+                        break;
+                    }
+                    int nim;
+                    cout << "Masukkan NIM : ";
+                    cin >> nim;
+                    if (deleteNode(nim)) {
+                        cout << "NIM : " << nim << "Berhasil Dihapus" << endl;
+                        system("pause");
+                        system("cls");
+                    }
+                    else
+                        cout << "Data Tidak Ditemukan" << endl;
+                    break;
