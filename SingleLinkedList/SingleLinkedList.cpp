@@ -180,3 +180,9 @@ int main() {
 
                 case 5:
                     break;
+
+                default:
+                    cout << "Pilihan Tidak Ada" << endl;
+                    break;
+            }
+        }
