@@ -137,3 +137,5 @@ int main() {
             cout << "5. Keluar" << endl;
             cout << "Pilihan : " << endl;
             cin >> pilihan;
+
+            switch (pilihan) {
